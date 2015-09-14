@@ -2,3 +2,75 @@ html {
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	background-color: gray;
+	margin: 0;
+	padding: 1em 0em 1em 0em;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+nav {
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+nav li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: #2257be;
+	margin: 0;
+	width: 100%;
+	padding: 0.5em;
+	margin: 0;
+	display: inline-block;
+	border: solid 3px #1f3873;
+	font-size: 1.5em;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 0.5em;
+	float: left;
+	width: 100%;
+	border: solid 3px #1f3873;
+}
+
+li {
+	display: inline-block;
+}
+
+.banner {
+	background-image: url("../images/helen.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+img {
+	position: center;
+}

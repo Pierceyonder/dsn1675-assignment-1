@@ -4,17 +4,40 @@ html {
 
 body {
 	margin: 0;
+	background-color: #f7dcb8;
 }
 
 h1 {
 	text-align: center;
-	background-color: gray;
+	background-color: teal;
 	margin: 0;
 	padding: 1em 0em 1em 0em;
+	color: white;
 }
 
 h2 {
 	margin-top: 0;
+	text-align: center;
+}
+
+h3 {
+padding-left: .5em;
+}
+
+.monuments {
+	margin-top: 2%;
+}
+
+.sevenwonders {
+	top: 42%;
+	margin-left: 1em;
+	width: 100%;
+}
+
+.bannertext {
+	top: 50%;
+	width: 100%;
+	position: absolute;
 }
 
 nav {
@@ -28,11 +51,22 @@ ol {
 	margin: 0;
 }
 
+.buttons {
+	padding: 0.5em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	background-color: #a8ae98;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
 nav li {
 	list-style-type: none;
 	text-decoration: none;
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 	float: left;
 	text-align: center;
 }
@@ -48,7 +82,7 @@ nav li a {
 	margin: 0;
 	display: inline-block;
 	border: solid 3px #1f3873;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 li a {
@@ -68,9 +102,55 @@ li {
 .banner {
 	background-image: url("../images/helen.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 30%;
 	position: relative;
+	clear: both;
+	text-align: center;
+	margin-bottom: 1.5em;
+	color: white;
+}
+
+.sevenwonders {
+	position: absolute;
+}
+
+.info1 {
+	float: left;
+	display: inline-block;
+	width: 31.3333%;
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+
+.info2 {
+	float: left;
+	display: inline-block;
+	width: 31.3333%;
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+
+.info3 {
+	float: left;
+	display: inline-block;
+	width: 31.3333%;
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+
+img {
+	width: 70%;
+	position: relative;
+	left: 15%;
+	padding-top: 1em;
 }
 
 img {
 	position: center;
+}
+
+footer {
+	background-color: teal;
+	padding: 0.2em 0em 0.2em 0em;
 }

@@ -16,12 +16,12 @@ h1 {
 }
 
 h2 {
-	margin-top: 0;
 	text-align: center;
 }
 
 h3 {
-padding-left: .5em;
+	padding-left: .5em;
+	padding-top: .5em;
 }
 
 .monuments {
@@ -29,12 +29,18 @@ padding-left: .5em;
 }
 
 .sevenwonders {
-	top: 42%;
+	top: 30%;
 	margin-left: 1em;
 	width: 100%;
 }
 
 .bannertext {
+	top: 50%;
+	width: 100%;
+	position: absolute;
+}
+
+.atlantistext {
 	top: 50%;
 	width: 100%;
 	position: absolute;
@@ -51,15 +57,41 @@ ol {
 	margin: 0;
 }
 
+.buttondiv {
+	position: relative;
+}
+
 .buttons {
-	padding: 0.5em ;
+	padding: 0.2em ;
 	width: 50%;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: white;
 	background-color: #a8ae98;
 	background-image: linear-gradient(to bottom, #6FC000, #388200);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	position: absolute;
+	left: 25%;
+	bottom: -100px;
+
+}
+
+.pricebuttondiv {
+	position: relative;
+}
+
+.pricebuttons {
+	padding: 0.2em ;
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	background-color: #a8ae98;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	left: 50%;
+	bottom: -100px;
+	position: absolute;
 }
 
 nav li {
@@ -148,6 +180,38 @@ img {
 
 img {
 	position: center;
+}
+
+.atlantismystery {
+	background-image: url("../images/maroti.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 50%;
+	position: relative;
+	clear: both;
+	text-align: center;
+	margin-bottom: 1.5em;
+	color: white;
+}
+
+.showtimes {
+	padding: 0.5em ;
+	width: 25%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	background-color: gray;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	position: relative;
+	left: 25%;
+	bottom: -100px;
+	margin-bottom: 5px;
+}
+
+.showtimesbutton {
+	position: absolute;
+	left: 30%;
+	top: 50%;
 }
 
 footer {

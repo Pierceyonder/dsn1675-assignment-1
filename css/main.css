@@ -7,12 +7,34 @@ body {
 	background-color: #f7dcb8;
 }
 
+.masthead {
+	background-color: teal;
+	position: relative;
+}
+
+.buybutton {
+	padding: 1em ;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	background-color: gray;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	left: 85%;
+	top: 25%;
+	position: absolute;
+}
+
 h1 {
 	text-align: center;
-	background-color: teal;
 	margin: 0;
 	padding: 1em 0em 1em 0em;
 	color: white;
+	background-image: url("../images/logo.svg");
+	background-repeat: no-repeat;
+	background-size: 70px;
+	background-position: 5%;
+	overflow: hidden;
+	position: relative;
 }
 
 h2 {

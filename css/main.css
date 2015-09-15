@@ -80,17 +80,13 @@ ol {
 
 }
 
-.pricebuttondiv {
-	position: relative;
-}
-
-.pricebuttondiv-b {
+.pricebuttondiv, .pricebuttondiv-b {
 	position: relative;
 }
 
 .pricebuttons {
 	padding: 0.2em ;
-	width: 15%;
+	width: 20%;
 	text-align: center;
 	font-size: 1em;
 	color: white;
@@ -98,13 +94,12 @@ ol {
 	background-image: linear-gradient(to bottom, #6FC000, #388200);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 	left: 20%;
-	bottom: -100px;
 	position: absolute;
 }
 
 .pricebuttons-b {
 	padding: 0.2em ;
-	width: 15%;
+	width: 20%;
 	text-align: center;
 	font-size: 1em;
 	color: white;
@@ -112,7 +107,6 @@ ol {
 	background-image: linear-gradient(to bottom, #6FC000, #388200);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 	right: 20%;
-	bottom: -100px;
 	position: absolute;
 }
 
@@ -204,6 +198,10 @@ img {
 	position: center;
 }
 
+.becomemember {
+	margin-top: 15%;
+}
+
 .atlantismystery {
 	background-image: url("../images/maroti.jpg");
 	background-repeat: no-repeat;
@@ -214,7 +212,6 @@ img {
 	text-align: center;
 	margin-bottom: 1.5em;
 	color: white;
-	margin-top: 18%;
 }
 
 .showtimes {
@@ -227,6 +224,10 @@ img {
 	position: absolute;
 	left: 37%;
 	top: 70%;
+}
+
+.largescreen {
+	margin-top: 15%;
 }
 
 footer {

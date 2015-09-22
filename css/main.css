@@ -341,6 +341,7 @@ h3 {
 .giza, .monuments {
 	float: left 10%;
 	padding: none;
+	width: 50%;
 }
 
 .monuments
@@ -351,13 +352,14 @@ h3 {
 
 .buttondiv {
 	float: right;
+	width: 50%;
 }
 
 
 
 
 .facts dt:nth-child(3){
-	left:50%;
+	left:37%;
 }
 
 .facts dt:nth-child(5){
@@ -366,14 +368,14 @@ h3 {
 
 .facts dd {
 	float: left;
-	width: 33%;
+	width: 37%;
 	padding-top: 1.5rem;
 	margin-left: none;
 }
 
 .facts dt {
 	position: absolute;
-	width: 33%
+	width: 37%
 	top: 0;
 }
 

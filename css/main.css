@@ -64,13 +64,16 @@ h3 {
 	padding-top: .5em;
 }
 
+.giza {
+	margin: none;
+}
+
 .monuments {
 	margin-top: 20%;
 }
 
 .sevenwonders {
 	top: 30%;
-	margin-left: 1em;
 	width: 100%;
 }
 
@@ -105,7 +108,7 @@ ol {
 	padding: 0.2em ;
 	width: 50%;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.5em;
 	color: white;
 	background-color: #a8ae98;
 	background-image: linear-gradient(to bottom, #6FC000, #388200);
@@ -113,6 +116,7 @@ ol {
 	position: absolute;
 	left: 25%;
 	bottom: -100px;
+	text-decoration: none;
 
 }
 
@@ -150,7 +154,7 @@ nav li {
 	list-style-type: none;
 	text-decoration: none;
 	display: inline-block;
-	width: 24%;
+	width: 25%;
 	float: left;
 	text-align: center;
 }
@@ -177,10 +181,6 @@ li a {
 	float: left;
 	width: 100%;
 	border: solid 3px #1f3873;
-}
-
-li {
-	display: inline-block;
 }
 
 .banner {
@@ -236,6 +236,7 @@ img {
 	position: absolute;
 	left: 37%;
 	top: 70%;
+	text-decoration: none;
 }
 
 .largescreen {
@@ -277,3 +278,89 @@ dd {
 	top: 0;
 }
 
+
+@media only screen and (min-width: 50em) {
+
+nav li a {
+	font-size: 1.6em;
+}
+
+.sevenwonders {
+	font-size: 2em;
+}
+
+.bannertext {
+	font-size: 1.3em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	padding: 1em 0em 1em 0em;
+	color: white;
+	background-size: 100px;
+}
+
+h2 {
+	font-size: 2.3em;
+}
+.buybutton {
+	padding: 1em ;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.buttons {
+	padding: 0.2em ;
+	width: 50%;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: #a8ae98;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+	position: absolute;
+	text-decoration: none;
+	left: 25%;
+	bottom: -100px;
+}
+
+.giza, .monuments {
+	width: 80%;
+	padding-right: 4em;
+}
+
+.facts dt:nth-child(3){
+	left:33%;
+}
+
+.facts dt:nth-child(5){
+	left:66%;
+}
+
+.facts dd {
+	float: left;
+	width: 33%;
+	padding-top: 1.5rem;
+	margin-left: none;
+}
+
+.facts dt {
+	position: absolute;
+	width: 33%
+	top: 0;
+}
+
+.atlantistext {
+	font-size: 1.5em;
+}
+
+.showtimes {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+
+
+}

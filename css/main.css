@@ -61,15 +61,18 @@ h2 {
 
 h3 {
 	padding-left: .5em;
+	text-decoration: none;
 	padding-top: .5em;
 }
 
 .giza {
 	margin: none;
+	padding: none;
 }
 
 .monuments {
 	margin-top: 20%;
+	padding: none;
 }
 
 .sevenwonders {
@@ -183,6 +186,14 @@ li a {
 	border: solid 3px #1f3873;
 }
 
+li {
+	text-decoration: none;
+}
+
+ul {
+	text-decoration: none;
+}
+
 .banner {
 	background-image: url("../images/helen.jpg");
 	background-repeat: no-repeat;
@@ -204,10 +215,6 @@ img {
 	position: relative;
 	left: 15%;
 	padding-top: 1em;
-}
-
-img {
-	position: center;
 }
 
 .becomemember {
@@ -248,6 +255,7 @@ footer {
 	padding: 0.2em 0em 0.2em 0em;
 	color: white;
 }
+
 .facts {
 	overflow: hidden;
 	position: relative;
@@ -279,6 +287,9 @@ dd {
 }
 
 
+
+
+
 @media only screen and (min-width: 50em) {
 
 nav li a {
@@ -305,34 +316,48 @@ h1 {
 h2 {
 	font-size: 2.3em;
 }
+
+h3 {
+	padding: 0%;
+	text-decoration: none;
+}
+
 .buybutton {
 	padding: 1em ;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.2em;
+}
+
+.buytickets {
+	margin-top: 5%;
 }
 
 .buttons {
-	padding: 0.2em ;
-	width: 50%;
-	text-align: center;
-	font-size: 2em;
-	color: white;
-	background-color: #a8ae98;
-	background-image: linear-gradient(to bottom, #6FC000, #388200);
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
-	position: absolute;
-	text-decoration: none;
-	left: 25%;
-	bottom: -100px;
+	font-size: 1em;
+	width: 70%;
+	position: relative;
 }
 
 .giza, .monuments {
-	width: 80%;
-	padding-right: 4em;
+	float: left 10%;
+	padding: none;
 }
 
+.monuments
+{
+	margin-top: 0%;
+	float: left 10%;
+}
+
+.buttondiv {
+	float: right;
+}
+
+
+
+
 .facts dt:nth-child(3){
-	left:33%;
+	left:50%;
 }
 
 .facts dt:nth-child(5){
@@ -352,6 +377,9 @@ h2 {
 	top: 0;
 }
 
+
+
+
 .atlantistext {
 	font-size: 1.5em;
 }
@@ -361,6 +389,30 @@ h2 {
 	text-decoration: none;
 }
 
+.pricebuttons, .pricebuttons-b {
+	font-size: 1.5em;
+	text-decoration: none;
+}
 
 
+img {
+	width: 50%;
+	position: relative;
+	left: 0%;
+}
+
+.weekend, .tuesday, .thursday {
+	float: left;
+	width: 50%;
+	text-decoration: none;
+}
+
+.monday, .wednesday, .friday {
+	float: right;
+	width: 50%;
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 32em;
 }

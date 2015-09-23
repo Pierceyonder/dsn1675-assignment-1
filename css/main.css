@@ -287,10 +287,16 @@ dd {
 }
 
 
-
+}
 
 
 @media only screen and (min-width: 50em) {
+
+
+html {
+	font-size: 105%;
+	line-height: 1.2;
+}
 
 nav li a {
 	font-size: 1.6em;
@@ -379,9 +385,6 @@ h3 {
 	top: 0;
 }
 
-
-
-
 .atlantistext {
 	font-size: 1.5em;
 }
@@ -417,4 +420,35 @@ img {
 
 footer {
 	margin-top: 32em;
+}
+}
+
+@media only screen and (min-width: 65em) {
+
+html {
+	font-size: 150%;
+	line-height: 1.5;
+}
+}
+
+
+@media print {
+
+nav {
+	display: none;
+}
+
+.pricinginfo {
+	display: none;
+}
+
+.masthead {
+	display: none;
+}
+
+a::after {
+	content: " (" attr(href) ")";
+	text-decoration: none;
+	color: #666;
+}
 }
